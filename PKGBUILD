@@ -8,7 +8,8 @@ arch=('i686' 'x86_64')
 url="http://processors.wiki.ti.com/index.php/Category:CCS_UniFlash"
 license=('custom:TECHNOLOGY SOFTWARE PUBLICLY AVAILABLE by Texas Instruments Incorporated')
 depends=('libudev0-shim'
-	     'libusb-compat')
+	     'libusb-compat'
+	     'ticloudagent')
 source=(${pkgname}_sl.$pkgver.run::http://software-dl.ti.com/ccs/esd/uniflash/${pkgname}_sl.$pkgver.run )
 noextract=("${pkgname}_sl.$pkgver.run" )
 options=(!strip)

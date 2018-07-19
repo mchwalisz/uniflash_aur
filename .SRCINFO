@@ -8,6 +8,7 @@ pkgbase = uniflash
 	license = custom:TECHNOLOGY SOFTWARE PUBLICLY AVAILABLE by Texas Instruments Incorporated
 	depends = libudev0-shim
 	depends = libusb-compat
+	depends = ticloudagent
 	noextract = uniflash_sl.4.3.0.1802.run
 	options = !strip
 	source = uniflash_sl.4.3.0.1802.run::http://software-dl.ti.com/ccs/esd/uniflash/uniflash_sl.4.3.0.1802.run
